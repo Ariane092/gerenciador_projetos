@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import logo from '../../img/project_logo.png';
 import Container from './Container';
+import LinkButton from './LinkButton';
 
 function Navbar(){
     return (
@@ -22,10 +23,8 @@ function Navbar(){
                     <li className={styles.item}>
                         <Link to="/projects">Projetos</Link>
                     </li>
-                    <li className={styles.item}>
-                    <button>
-                        <Link to="/newproject">Novo Projeto</Link>
-                    </button>
+                    <li>
+                    <LinkButton to="/newproject" text="Novo Projeto" />
                     </li>
                 </ul>
             </Container>

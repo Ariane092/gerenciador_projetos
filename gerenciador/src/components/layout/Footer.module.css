@@ -1,6 +1,6 @@
 .footer{
-    background-color: transparent;
-    border-top: 2px solid  #602bdb63;
+    background-color: whitesmoke;
+    box-shadow: 0 0 1em #44434663;
     color: #602bdb;
     padding: 3em;
     text-align: center;
